@@ -6,7 +6,7 @@
 /*   By: sjuery <sjuery@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/11 12:28:36 by sjuery            #+#    #+#             */
-/*   Updated: 2017/10/23 02:04:02 by sjuery           ###   ########.fr       */
+/*   Updated: 2017/10/23 11:27:13 by sjuery           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <unistd.h>
 # include "libft/libft.h"
 
-# define BUFF_SIZE 100000
+# define BUFF_SIZE 32
 
 int				get_next_line(const int fd, char **line);
 
